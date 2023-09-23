@@ -923,16 +923,6 @@ img{
     transform: perspective(1000px);
 }
 
-.service-section .certificate-item{
-    flex: 0 0 25%;
-    max-width: 25%;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
-}
-
 .service-section .service-item-inner{
     padding: 50px 15px;
     text-align: center;

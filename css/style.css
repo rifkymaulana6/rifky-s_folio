@@ -669,9 +669,15 @@ img{
 .about-section .about-img .img-box{
     border-radius: 5px;
     padding: 15px;
+    aspect-ratio: 3 / 4;
+    width: 100%;          /* atau max-width: 300px untuk kontrol ukuran maksimal */
+    overflow: hidden;      /* potong bagian gambar yang keluar */
 }
 .about-section .about-img .img-box img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
     border: 10px solid transparent;
     border-radius: 5px;
 }
